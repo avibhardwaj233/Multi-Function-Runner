@@ -10,7 +10,7 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 setup(
   name = 'Multi Function Runner',         
   packages = ['Multi Function Runner'],   
-  version = '1.0.1',      
+  version = '1.0.2',      
   license='MIT',        
   description = 'A simple library for Python to run multiple functions in a lambda function.',   
   author = 'Tejas',
