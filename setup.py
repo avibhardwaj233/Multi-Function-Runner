@@ -1,20 +1,13 @@
 from distutils.core import setup
-import codecs
-import os
-
-here = os.path.abspath(os.path.dirname(__file__))
-
-with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
-    long_description = "\n" + fh.read()
 
 setup(
   name = 'Multi Function Runner',         
   packages = ['Multi Function Runner'],   
-  version = '1.0.2',      
+  version = '1.0.3',      
   license='MIT',        
   description = 'A simple library for Python to run multiple functions in a lambda function.',   
   author = 'Tejas',
-  long_description=long_description,
+  long_description='# Multi-Function-Runner\nA simple library for Python to run multiple functions in a lambda function.\n\nExample:',
   long_description_content_type="text/markdown",
   author_email = 'help.a.helpcenter@gmail.com',      
   url = 'https://github.com/avibhardwaj233/Multi-Function-Runner',   
