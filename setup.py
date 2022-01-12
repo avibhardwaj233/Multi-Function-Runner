@@ -13,7 +13,7 @@ setup(
   install_requires=[],
 
   classifiers=[
-    'Development Status :: 4 - Alpha',      
+    'Development Status :: 4 - Beta',      
     'Intended Audience :: Developers',      
     'Topic :: Software Development :: Build Tools',
     'License :: OSI Approved :: MIT License',   
