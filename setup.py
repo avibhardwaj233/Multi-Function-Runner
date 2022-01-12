@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'Multi Function Runner',         
   packages = ['Multi Function Runner'],   
-  version = '1.0.1',      
+  version = '1.0.0',      
   license='MIT',        
   description = 'A simple library for Python to run multiple functions in a lambda function.',   
   author = 'Tejas',                   
